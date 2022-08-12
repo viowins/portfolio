@@ -4,9 +4,9 @@ import Accordion from "./Accordion.vue";
 </script>
 
 <template>
-  <div class="w-full h-full lg:h-screen">
+  <div class="w-full h-full">
     <div
-      class="flex flex-col w-full h-full mt-12 md:mt-16 lg:mt-40 mb-16 md:mb-24 lg:mb-0"
+      class="flex flex-col w-full h-full mt-12 md:mt-16 lg:mt-40 mb-16 md:mb-24 lg:mb-44"
     >
       <div class="">
         <div>
@@ -19,27 +19,19 @@ import Accordion from "./Accordion.vue";
             <Bio />
           </div>
           <div class="relative w-full lg:w-6/12">
-            <div class="relative lg:absolute mt-10">
+            <div class="relative mt-10">
               <Accordion emoji="🦄" title="Design (UI/UX)"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur, voluptatum reprehenderit facilis minima dicta
-                deleniti veritatis natus reiciendis ullam sunt harum distinctio
-                temporibus officiis! Nostrum natus reprehenderit voluptate
-                veritatis quos!</Accordion
+                >Increase the functionality of your website by prioritizing both
+                the interface and the user experience.</Accordion
               >
-              <Accordion emoji="🦄" title="Design (UI/UX)"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur, voluptatum reprehenderit facilis minima dicta
-                deleniti veritatis natus reiciendis ullam sunt harum distinctio
-                temporibus officiis! Nostrum natus reprehenderit voluptate
-                veritatis quos!</Accordion
+              <Accordion emoji="🔥" title="Brand Strategy"
+                >Have a trendy and modern interface design by keeping your brand
+                strategies at the forefront.</Accordion
               >
-              <Accordion emoji="🦄" title="Design (UI/UX)"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur, voluptatum reprehenderit facilis minima dicta
-                deleniti veritatis natus reiciendis ullam sunt harum distinctio
-                temporibus officiis! Nostrum natus reprehenderit voluptate
-                veritatis quos!</Accordion
+              <Accordion emoji="📱" title="Responsive"
+                >Provide a useful website for your users or customers by
+                optimizing on every device with your responsive website
+                interface.</Accordion
               >
             </div>
           </div>

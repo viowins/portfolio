@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-4 max-w-full w-full md:max-w-3xl mx-auto mb-4">
-    <h1 class="text-4xl text-center opacity-70 mb-6">My Skills</h1>
+  <div class="mt-4 lg:mt-0 max-w-full w-full md:max-w-3xl mx-auto mb-4">
+    <h1 class="text-4xl text-center mb-6">My Skills</h1>
     <div class="flex justify-center">
       <div class="w-full rounded-full mt-4 bg-zinc-800 p-1">
         <div class="relative flex items-center">
@@ -78,7 +78,11 @@
               that gives you the building blocks you need to build your React
               applications.</Card
             >
-            <Card title="Wordpress" setIcon="wordpress" setLevel="Intermediate"
+            <Card
+              class="h-[125px]"
+              title="Wordpress"
+              setIcon="wordpress"
+              setLevel="Intermediate"
               >WordPress is open source software you can use to create a
               beautiful website, blog, or app.</Card
             >

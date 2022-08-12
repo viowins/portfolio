@@ -7,7 +7,7 @@
       >
         <div class="inline-flex items-center gap-4">
           <span>{{ emoji }}</span>
-          <div class="opacity-50">{{ title }}</div>
+          <div>{{ title }}</div>
         </div>
         <svg
           class="h-8 w-8"
