@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-zinc-900 text-white;
+  }
+}
+
+@layer components {
+  html {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+@layer utilities {
+  @media (min-width: 576px) {
+    .custom-container {
+      @apply max-w-[540px];
+    }
+  }
+
+  @media (min-width: 768px) {
+    .custom-container {
+      @apply max-w-[720px];
+    }
+  }
+
+  @media (min-width: 992px) {
+    .custom-container {
+      @apply max-w-[960px];
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .custom-container {
+      @apply max-w-[1140px];
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .custom-container {
+      @apply max-w-[1320px];
+    }
+  }
+
+  .custom-container {
+    @apply w-full px-2 mx-auto;
+  }
+}
