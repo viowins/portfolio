@@ -48,7 +48,7 @@
               >JavaScript is a scripting or programming language that allows you
               to implement complex features on web pages.</Card
             >
-            <Card title="PHP" setIcon="php" setLevel="Intermediate"
+            <Card title="PHP" setIcon="php" setLevel="Entry Level"
               >PHP code is executed on the server.</Card
             >
           </div>
@@ -82,7 +82,7 @@
               class="h-[125px]"
               title="Wordpress"
               setIcon="wordpress"
-              setLevel="Intermediate"
+              setLevel="Entry Level"
               >WordPress is open source software you can use to create a
               beautiful website, blog, or app.</Card
             >
