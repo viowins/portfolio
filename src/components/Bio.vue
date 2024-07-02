@@ -2,7 +2,7 @@
 import { onMounted, reactive } from "vue";
 
 const data = reactive({
-  isSwitch: false,
+  isSwitch: true,
 });
 </script>
 
@@ -39,14 +39,10 @@ const data = reactive({
         data.isSwitch ? 'hidden animate-fadeOut_50' : 'block animate-fadeIn_50'
       "
     >
-      I aim to you have interface designs that meet
-      <u>your needs and dreams</u> by using <b>next-generation technologies.</b
-      ><br /><br />
-      I design interface designs <b>responsive</b> and make it work best on all
-      devices. By adopting the principle of <b>Cross-Browser,</b> I make your
-      site suitable for every browser and optimize the <u>page speed</u> of your
-      website to speed up entries to your site as much as possible. I take into
-      account not only the design, but also the <b>user experience.</b>
+      I have 3 years of experience as a front-end web developer. I have worked
+      with various projects and technologies. I think it's important to
+      constantly learn new things in the industry because everything is
+      constantly being renewed.
     </p>
     <p
       id="longBio"
@@ -58,18 +54,16 @@ const data = reactive({
       "
       :style="data.isSwitch ? `max-height: 1000px` : 'max-height:0px'"
     >
-      I aim to you have interface designs that meet
-      <u>your needs and dreams</u> by using <b>next-generation technologies.</b
-      ><br /><br />
-      I design interface designs <b>responsive</b> and make it work best on all
-      devices. By adopting the principle of <b>Cross-Browser,</b> I make your
-      site suitable for every browser and optimize the <u>page speed</u> of your
-      website to speed up entries to your site as much as possible. I take into
-      account not only the design, but also the <b>user experience.</b> I like
-      to approach projects <u>professionally.</u> Because things are moving on
-      track and it's <u>working faster.</u> If you have an interesting project,
-      this will be a job that I will enjoy for me.<br /><br />
-      <b>I can't wait to work together...</b>
+    I have 3 years of experience as a front-end web developer. I have worked
+      with various projects and technologies. I think it's important to
+      constantly learn new things in the industry because everything is
+      constantly being renewed.
+      <br /><br />
+      I am always open to innovation and like to work with teammates and share
+      things. Since I have a perfectionist spirit, I want to do my best in the
+      projects I work on. I have advanced knowledge of JavaScript, React and
+      Next.JS, as well as knowledge of context, hook, Rest API and redux. I
+      worked on projects that are the base of WordPress, Craft and Statamic CMS.
     </p>
   </div>
 </template>

@@ -31,8 +31,8 @@
         :class="data.isSwitch ? '-translate-x-2/4' : '-translate-x-0'"
         :style="
           data.isSwitch
-            ? `max-height: ${data.getTrueHeight}px`
-            : `max-height: calc(${data.getFalseHeight}px + 20px)`
+            ? `height: ${data.getTrueHeight + 40}px`
+            : `height: ${data.getFalseHeight + 40}px`
         "
       >
         <div class="w-2/4">
@@ -48,19 +48,27 @@
               >JavaScript is a scripting or programming language that allows you
               to implement complex features on web pages.</Card
             >
-            <Card title="PHP" setIcon="php" setLevel="Entry Level"
+            <Card title="PHP" setIcon="php" setLevel="Intermediate"
               >PHP code is executed on the server.</Card
             >
           </div>
         </div>
         <div class="w-2/4">
           <div id="contentTrue" class="divide-y divide-zinc-800">
+            <Card title="React JS" setIcon="react" setLevel="Expert"
+              >A JavaScript library for building user interfaces</Card
+            >
+            <Card title="Next JS" setIcon="next" setLevel="Expert"
+              >Next.js is a React framework for building full-stack web
+              applications. You use React Components to build user interfaces,
+              and Next.js for additional features and optimizations.</Card
+            >
             <Card title="Tailwind CSS" setIcon="tailwind" setLevel="Expert"
               >A utility-first CSS framework packed with classes like
               <b>flex, pt-4, text-center</b> and <b>rotate-90</b> that can be
               composed to build any design, directly in your markup.</Card
             >
-            <Card title="Vue JS" setIcon="vue" setLevel="Intermediate"
+            <Card title="Vue JS" setIcon="vue" setLevel="Entry Level"
               >An approachable, performant and versatile framework for building
               web user interfaces.</Card
             >
@@ -70,19 +78,14 @@
               components, and bring projects to life with powerful JavaScript
               plugins.</Card
             >
-            <Card title="React JS" setIcon="react" setLevel="Intermediate"
-              >A JavaScript library for building user interfaces</Card
-            >
-            <Card title="Chakra UI" setIcon="chakra" setLevel="Expert"
-              >Chakra UI is a simple, modular and accessible component library
-              that gives you the building blocks you need to build your React
-              applications.</Card
+            <Card title="astro" setIcon="chakra" setLevel="Entry Level"
+              >Astro is a JavaScript web framework optimized for building fast, content-driven websites.</Card
             >
             <Card
               class="h-[125px]"
               title="Wordpress"
               setIcon="wordpress"
-              setLevel="Entry Level"
+              setLevel="Expert"
               >WordPress is open source software you can use to create a
               beautiful website, blog, or app.</Card
             >
