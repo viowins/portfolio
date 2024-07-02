@@ -78,7 +78,7 @@
               components, and bring projects to life with powerful JavaScript
               plugins.</Card
             >
-            <Card title="astro" setIcon="chakra" setLevel="Entry Level"
+            <Card title="Astro" setIcon="astro" setLevel="Entry Level"
               >Astro is a JavaScript web framework optimized for building fast, content-driven websites.</Card
             >
             <Card
