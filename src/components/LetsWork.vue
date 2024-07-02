@@ -8,7 +8,7 @@ import Icon from "./Icon.vue";
   >
     <div class="text-center">
       <h1 class="text-3xl mb-8">
-        Want to create<br />something awesome?<br />Drop me an email.<br />
+        Do you want to contact me?<br />
       </h1>
       <a
         class="text-base flex items-center justify-center gap-4 opacity-50 hover:opacity-100 transition-all"
