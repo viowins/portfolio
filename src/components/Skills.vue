@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4 lg:mt-0 max-w-full w-full md:max-w-3xl mx-auto mb-4">
+  <div class="mt-4 lg:mt-0 max-w-full w-full mx-auto mb-4">
     <h1 class="text-4xl text-center mb-6">My Skills</h1>
     <div class="flex justify-center">
       <div class="w-full rounded-full mt-4 bg-zinc-800 p-1">
@@ -68,7 +68,7 @@
               <b>flex, pt-4, text-center</b> and <b>rotate-90</b> that can be
               composed to build any design, directly in your markup.</Card
             >
-            <Card title="Vue JS" setIcon="vue" setLevel="Entry Level"
+            <Card title="Vue JS" setIcon="vue" setLevel="Intermediate"
               >An approachable, performant and versatile framework for building
               web user interfaces.</Card
             >

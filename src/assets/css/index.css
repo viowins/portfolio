@@ -27,24 +27,6 @@
     }
   }
 
-  @media (min-width: 992px) {
-    .custom-container {
-      @apply max-w-[960px];
-    }
-  }
-
-  @media (min-width: 1200px) {
-    .custom-container {
-      @apply max-w-[1140px];
-    }
-  }
-
-  @media (min-width: 1400px) {
-    .custom-container {
-      @apply max-w-[1320px];
-    }
-  }
-
   .custom-container {
     @apply w-full px-2 mx-auto;
   }
