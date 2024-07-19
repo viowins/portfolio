@@ -48,6 +48,9 @@
               >JavaScript is a scripting or programming language that allows you
               to implement complex features on web pages.</Card
             >
+            <Card title="Typescript" setIcon="typescript" setLevel="Expert"
+              >TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.</Card
+            >
             <Card title="PHP" setIcon="php" setLevel="Intermediate"
               >PHP code is executed on the server.</Card
             >
@@ -71,6 +74,9 @@
             <Card title="Vue JS" setIcon="vue" setLevel="Intermediate"
               >An approachable, performant and versatile framework for building
               web user interfaces.</Card
+            >
+            <Card title="Redux" setIcon="redux" setLevel="Expert"
+              >A JS library for predictable and maintainable global state management</Card
             >
             <Card title="Bootstrap 5" setIcon="bootstrap" setLevel="Expert"
               >Powerful, extensible, and feature-packed frontend toolkit. Build

@@ -23,14 +23,19 @@ const projects = [
     href: "https://filmly.vercel.app/",
   },
   {
-    thumbnail: "/projects/event-up.png",
-    title: "Event Up",
-    href: "https://event-up.vercel.app/",
+    thumbnail: "/projects/word-game.png",
+    title: "Word Game",
+    href: "https://word-game-beta-five.vercel.app/",
   },
   {
     thumbnail: "/projects/laliyayinlari.png",
     title: "Lali Yayınları",
     href: "https://laliyayinlari.com/",
+  },
+  {
+    thumbnail: "/projects/event-up.png",
+    title: "Event Up",
+    href: "https://event-up.vercel.app/",
   },
 ]
 </script>
